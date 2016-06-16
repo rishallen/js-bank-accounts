@@ -6,6 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var massive = require('massive');
 
+//this lets us require app in other places
+//gives us access to requests
+// guves us an instance of app that can be required 
 var app = module.exports = express();
 
 // database setup
